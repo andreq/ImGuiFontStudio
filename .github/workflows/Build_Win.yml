@@ -20,5 +20,5 @@ jobs:
     - name: upload artifact
       uses: actions/upload-artifact@v7
       with:
-        path: build\Release\ImGuiFontStudio_Msvc_x32.exe
+        path: build\Release\ImGuiFontStudio_Msvc_x64.exe
         archive: false
